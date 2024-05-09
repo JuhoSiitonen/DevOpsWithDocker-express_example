@@ -26,4 +26,4 @@ jobs:
         with:
           file: express-app/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/devopsdocker:latest
+          tags: juhosii/devopsdocker:latest
