@@ -24,6 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
+          context: express-app
           file: express-app/Dockerfile
           push: true
           tags: juhosii/devopsdocker:latest
